@@ -1,0 +1,8 @@
+services:
+  analyzer:
+    build: .
+    volumes:
+      - .:/output
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: sh -c "python -u main.py && cp /app/result.json /output/result.json && echo '[OK] result.json copiado para o diretório do host'"
