@@ -34,6 +34,7 @@ Imagem base: **python:3.12-alpine**
 ---
 
 ## Fluxo de processamento
+<img width="1075" height="1463" alt="fluxograma" src="https://github.com/user-attachments/assets/3949db9d-5f05-4ff0-a8a4-b3b306e870f6" />
 
 ---
 
